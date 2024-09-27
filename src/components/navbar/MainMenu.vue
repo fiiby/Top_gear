@@ -18,24 +18,31 @@ export default {
 
 <style scoped>
 .nav {
-    background-color: black;
-    /* background-color: grey; */
-    color: white;
+  
     overflow: hidden;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
  li {
     display: inline-block;
-    padding: 10px;
+   
+    margin:0 5px;
  }
  a {
+    padding: 10px;
+    display: block;
     text-decoration: none;
-    color: white;
+    color:#4f4f60;
+    font-weight: bold;
 
     &.router-link-exact-active {
-        color:green;
+        /* border-bottom:3px solid #4c4f60; */
+        color:rgb(233, 92, 127) ;
     }
+ }
+ li:hover {
+    border-bottom:3px solid #4c4f60 ;
  }
 
 </style>
