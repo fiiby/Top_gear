@@ -23,10 +23,12 @@ export default {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    background-color: rgb(138, 201, 119);
+    padding: 50px;
 }
  li {
     display: inline-block;
-   
+   font-size: large;
     margin:0 5px;
  }
  a {
@@ -37,12 +39,12 @@ export default {
     font-weight: bold;
 
     &.router-link-exact-active {
-        /* border-bottom:3px solid #4c4f60; */
-        color:rgb(233, 92, 127) ;
+        border-bottom:3px solid white;
+        color:white;
     }
  }
- li:hover {
+ /* li:hover {
     border-bottom:3px solid #4c4f60 ;
- }
+ } */
 
 </style>

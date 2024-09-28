@@ -1,13 +1,17 @@
 <template>
     <div >
-        <ul class="sidebar-nav">
+        <!-- <ul class="sidebar-nav">
             <li><router-link to="/">Toyota</router-link></li>
             <li><router-link to="/about">Honda</router-link></li>
             <li><router-link to="/Categories">Nissan</router-link></li>
             <li><router-link to="/contact">Mitsubishi</router-link></li>
 
-        </ul>
-     
+        </ul> -->
+        <ul class="sidebar-nav">
+      <li v-for="(car, index) in carsData" :key="index">
+        <router-link :to="`/${car.brand}`">{{ car.brand }}</router-link>
+      </li>
+    </ul>
         
         </div>
 
@@ -16,6 +20,12 @@
 <script >
 export default {
   name:'SidebarCom',
+  props: {
+    carsData: {
+      type: Array, // Expecting an array of cars
+      required: true, // Prop is required
+    },
+  },
 
 }
 </script>
@@ -27,7 +37,7 @@ export default {
       padding: 10px;
         width: 100%;
         border-bottom:2px solid white;
-        background-color: #4f4f60;
+        background-color: rgb(138, 201, 119);
         text-decoration: none;
         }
 

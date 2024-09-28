@@ -28,7 +28,7 @@
         "brand": "Hyundai",
         "model": "Grand i10 Nios",
         "car body": "hatchback",
-        "color": "yellow",
+        "color": "white",
         "price": "30000$",
         "year": 2018
       },
@@ -36,7 +36,7 @@
         "brand": "Honda",
         "model": "Civic",
         "car body": "sedan",
-        "color": "blue",
+        "color": "grey",
         "price": "25000$",
         "year": 2010
       },
