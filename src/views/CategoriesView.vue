@@ -69,13 +69,15 @@ export default {
 </script>
 
 <style scoped>
-* {
+/* * {
   width:60%;
-  height: 90%;
-}
+ 
+} */
 .cat-page {
-/* display: flex; */
-/* flex-direction: column; */
+display: flex; 
+flex-direction: column;
+width: 60%;
+height: 90%;
  background-color: rgba(138, 201, 119, 0.548);
  
   justify-items: center;
@@ -83,6 +85,8 @@ export default {
   margin-left: 430px;
   margin-top:5px;
   margin-bottom:30px;
+  border: 3px solid brown;
+  border-radius: 10px;
   
 }
 p {

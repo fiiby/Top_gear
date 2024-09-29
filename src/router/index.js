@@ -3,7 +3,8 @@ import HomeView from '../views/HomeView.vue'
 import ContactView from '@/views/ContactView.vue'
 import CategoriesView from '@/views/CategoriesView.vue'
 import ErrorPageView from '@/views/ErrorPageView.vue'
-import FooterView from '@/views/FooterView.vue';
+// import FooterView from '@/views/FooterView.vue';
+import CarDetailsView from '@/views/CarDetailsView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,7 +25,13 @@ const router = createRouter({
     {
       path: '/categories',
       name: 'Categories',
-      component: CategoriesView
+      component: CategoriesView,
+    },
+    {
+      path: '/CarDetailsView/:id', // Dynamic route for car details
+      name: 'CarDetailsView',
+      component: CarDetailsView,
+      props: true, // Allow props to be passed through the route
     },
     {
       path:'/contact',
@@ -37,11 +44,11 @@ const router = createRouter({
       component:ErrorPageView,
     },
     
-    {
-      path:'/footer',
-      name:'Footer',
-      component:FooterView,
-    }
+    // {
+    //   path:'/footer',
+    //   name:'Footer',
+    //   component:FooterView,
+    // }
 
   ]
 })

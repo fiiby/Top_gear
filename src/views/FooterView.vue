@@ -25,14 +25,16 @@
     position: fixed; /*Sticks the footer to the bottom */
     bottom: 0; /* Aligns the footer at the bottom*/
      left: 0; /*Ensures it spans the entire width */
-    width: 65%; 
+    width: 63%; 
     height: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(138, 201, 119);
      padding:  20px;
-    margin-left: 19%;
+    margin-left: 18%;
+    border: 2px solid green;
+    border-radius: 5px;
  
   }
   a {

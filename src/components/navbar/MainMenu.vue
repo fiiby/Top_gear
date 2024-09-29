@@ -22,9 +22,11 @@ export default {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     background-color: rgb(138, 201, 119);
     padding: 50px;
+    border: 2px solid green;
+    border-radius: 5px;
 }
  li {
     display: inline-block;

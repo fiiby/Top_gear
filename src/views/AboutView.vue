@@ -76,6 +76,9 @@ export default {
 .about-page {
   background-color: rgba(138, 201, 119, 0.548);
   padding: 20px; /* Adjust padding for responsiveness */
+  border: 3px solid brown;
+  border-radius: 10px;
+  height: 50%
 }
 
 </style>

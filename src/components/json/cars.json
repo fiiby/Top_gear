@@ -1,22 +1,27 @@
 {
     "cars": [
       {
+        "imageName": "nissan-qashqai-2010.jpg",
         "brand": "Nissan",
         "model": "Qashqai",
         "car body": "4wd",
         "color": "red",
         "price": "10000$",
         "year": 2010
+        
       },
       {
+        "imageName": "lexus-gs-2020.jpg",
         "brand": "Lexus",
-        "model": "GX",
+        "model": "GS",
         "car body": "4WD",
         "color": "black",
         "price": "50000$",
         "year": 2020
+       
       },
       {
+        "imageName": "nissan_qashqai_2010.jpg",
         "brand": "Toyota",
         "model": "RAV4",
         "car body": "crossover",
@@ -25,14 +30,16 @@
         "year": 2015
       },
       {
+        "imageName": "hyundai-grand.jpg",
         "brand": "Hyundai",
-        "model": "Grand i10 Nios",
+        "model": "Grand Nios",
         "car body": "hatchback",
         "color": "white",
         "price": "30000$",
         "year": 2018
       },
       {
+        "imageName": "Honda_Civic.jpg",
         "brand": "Honda",
         "model": "Civic",
         "car body": "sedan",
@@ -41,6 +48,7 @@
         "year": 2010
       },
       {
+        "imageName": "ford-socus.jpg",
         "brand": "Ford",
         "model": "Focus",
         "car body": "hatchback",
@@ -49,6 +57,7 @@
         "year": 2014
       },
       {
+        "imageName":"volkswagon-polo.jpg",
         "brand": "Volkswagon",
         "model": "Polo",
         "car body": "4wd",
