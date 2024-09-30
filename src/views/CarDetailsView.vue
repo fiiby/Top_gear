@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div>
     <div class="car-details-container" v-for="(car, i) in carsData" :key="i" >
       <h1>{{ car.brand }} {{ car.model }}</h1>
@@ -130,4 +130,7 @@
     margin-top: 20px;
   }
   </style>
-  
+   -->
+  <template>
+    <div>hello</div>
+  </template>

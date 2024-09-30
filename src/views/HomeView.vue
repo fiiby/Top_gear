@@ -1,10 +1,10 @@
 <template>
   <div class="home row">
     <div class="col-2">
-    <SidebarCom :carsData="carsData.cars" />
+    <SidebarCom :carsData="carsData" />
     </div>
     <div class="col-10">
-      <CarsCom :carsData="carsData.cars" />
+      <CarsCom :carsData="carsData" />
     </div>
   </div>
 
@@ -14,40 +14,28 @@
 <script >
 import SidebarCom from '@/components/sidebar/SidebarCom.vue';
 import CarsCom from '@/components/cars/CarsCom.vue';
-import carsData from '@/components/json/cars.json';
+import carsDataJson from '@/components/json/cars.json';
 
 export default {
 name:'HomeView',
 components: {
     SidebarCom,
     CarsCom,
-
   },
 
 data() {
   return {
 
-  carsData,
-    };
-  },
- 
+  carsData: carsDataJson[0].carsData || [], //initialize data
+  };
+},
+ mounted() {
+  console.log(this.carsData); // debugging
+ },
+    
 };
 </script>
 
 <style scoped> /* not added scss */
-
-.each-car {
-padding: 10px;
-margin-bottom: 10px;
-border: 10px solid #eee;
-width: 400px;
-
-}
-img {
-  width: 300px;
-  height: 200px;
-  margin-bottom: 10px;
-
-}
 
 </style>

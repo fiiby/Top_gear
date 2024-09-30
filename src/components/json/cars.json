@@ -1,70 +1,89 @@
-{
-    "cars": [
+[
+  {
+    "carsData": [
       {
-        "imageName": "nissan-qashqai-2010.jpg",
-        "brand": "Nissan",
-        "model": "Qashqai",
-        "car body": "4wd",
-        "color": "red",
-        "price": "10000$",
-        "year": 2010
+          "id":1,
+          "imageName": "Nissan Qashqai",
+          "mainImage":"nissan-qashqai-2010.jpg",
+          "brand": "Nissan",
+          "model": "Qashqai",
+          "car body": "4wd",
+          "color": "red",
+          "price": "10000$",
+          "year": 2010
+          
+        },
+        {
+          "id":2,
+          "imageName": "Lexus Gs",
+          "mainImage":"lexus-gs-2020.jpg",
+          "brand": "Lexus",
+          "model": "GS",
+          "car body": "4WD",
+          "color": "black",
+          "price": "50000$",
+          "year": 2020
         
-      },
-      {
-        "imageName": "lexus-gs-2020.jpg",
-        "brand": "Lexus",
-        "model": "GS",
-        "car body": "4WD",
-        "color": "black",
-        "price": "50000$",
-        "year": 2020
-       
-      },
-      {
-        "imageName": "nissan_qashqai_2010.jpg",
-        "brand": "Toyota",
-        "model": "RAV4",
-        "car body": "crossover",
-        "color": "gray",
-        "price": "15000$",
-        "year": 2015
-      },
-      {
-        "imageName": "hyundai-grand.jpg",
-        "brand": "Hyundai",
-        "model": "Grand Nios",
-        "car body": "hatchback",
-        "color": "white",
-        "price": "30000$",
-        "year": 2018
-      },
-      {
-        "imageName": "Honda_Civic.jpg",
-        "brand": "Honda",
-        "model": "Civic",
-        "car body": "sedan",
-        "color": "grey",
-        "price": "25000$",
-        "year": 2010
-      },
-      {
-        "imageName": "ford-socus.jpg",
-        "brand": "Ford",
-        "model": "Focus",
-        "car body": "hatchback",
-        "color": "blue",
-        "price": "25000$",
-        "year": 2014
-      },
-      {
-        "imageName":"volkswagon-polo.jpg",
-        "brand": "Volkswagon",
-        "model": "Polo",
-        "car body": "4wd",
-        "color": "olive green",
-        "price": "25000$",
-        "year": 2016
-      }
-    ]
-
-  }
+        },
+        {
+          "id":3,
+          "imageName": "Toyota Rav",
+          "mainImage":"Toyota_RAV4.jpg",
+          "brand": "Toyota",
+          "model": "RAV4",
+          "car body": "crossover",
+          "color": "gray",
+          "price": "15000$",
+          "year": 2015
+        },
+        {
+          "id":4,
+          "imageName": "Hyundai",
+          "mainImage":"hyundai-grand.jpg",
+          "brand": "Hyundai",
+          "model": "Grand Nios",
+          "car body": "hatchback",
+          "color": "white",
+          "price": "30000$",
+          "year": 2018
+        },
+        {
+          "id":5,
+          "imageName": "Honda",
+          "mainImage":"Honda_Civic.jpg",
+          "brand": "Honda",
+          "model": "Civic",
+          "car body": "sedan",
+          "color": "grey",
+          "price": "25000$",
+          "year": 2010
+        },
+        {
+          "id":6,
+          "imageName": "Ford",
+          "mainImage":"ford-focus.jpg",
+          "brand": "Ford",
+          "model": "Focus",
+          "car body": "hatchback",
+          "color": "blue",
+          "price": "25000$",
+          "year": 2014
+        },
+        {
+          "id":7,
+          "imageName":"Volks Polo",
+          "mainImage":"volkswagon-polo.jpg",
+          "brand": "Volkswagon",
+          "model": "Polo",
+          "car body": "4wd",
+          "color": "olive green",
+          "price": "25000$",
+          "year": 2016
+        }
+    
+      ]
+    }
+  ]
+    
+  
+    

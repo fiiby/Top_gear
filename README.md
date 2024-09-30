@@ -33,3 +33,5 @@ npm run build
 ```sh
 npm run lint
 ```
+#08 Show All Cars Dynamically | Car Shop Front End | Vue Js 2 #vue_js_2
+https://www.youtube.com/watch?v=BetP7OXnkz8&list=PLiqIvaqernp3Jz8tkKlNJS0pP_1Pcv-KC&index=12

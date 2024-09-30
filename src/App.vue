@@ -1,6 +1,5 @@
 <script >
-import MainMenue from "@/components/navbar/MainMenu.vue";
-// import HomeView from "./views/HomeView.vue";
+import MainMenu from "@/components/navbar/MainMenu.vue";
 import FooterView from "./views/FooterView.vue";
 
 
@@ -9,8 +8,7 @@ import FooterView from "./views/FooterView.vue";
 export default {
 name: "App",
 components:{
-MainMenue,
-
+MainMenu,
 FooterView,
 }
 }
@@ -19,12 +17,14 @@ FooterView,
 
 <template>
   <div id="app" class="container">
-<MainMenue />
-  <FooterView />
-    </div>
+    <MainMenu />
+    <RouterView />
+
+    <FooterView />
+  </div>
 
 
 
-  <RouterView />
+
 </template>
 
