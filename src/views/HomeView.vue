@@ -25,7 +25,6 @@ components: {
 
 data() {
   return {
-
   carsData: carsDataJson[0].carsData || [], //initialize data
   };
 },
