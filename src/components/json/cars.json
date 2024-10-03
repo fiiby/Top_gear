@@ -9,7 +9,7 @@
           "model": " Nissan Qashqai",
           "car body": "4wd",
           "color": "red",
-          "price": "10000$",
+          "price": "10000",
           "year": 2010
           
         },
@@ -21,7 +21,7 @@
           "model": "Lexus GS",
           "car body": "4WD",
           "color": "black",
-          "price": "50000$",
+          "price": "35000",
           "year": 2020
         
         },
@@ -33,7 +33,7 @@
           "model": "Toyota RAV4",
           "car body": "crossover",
           "color": "gray",
-          "price": "15000$",
+          "price": "15000",
           "year": 2015
         },
         {
@@ -44,7 +44,7 @@
           "model": " Hyundai Grand Nios",
           "car body": "hatchback",
           "color": "white",
-          "price": "30000$",
+          "price": "20000",
           "year": 2018
         },
         {
@@ -55,7 +55,7 @@
           "model": "Honda Civic",
           "car body": "sedan",
           "color": "grey",
-          "price": "25000$",
+          "price": "12000",
           "year": 2010
         },
         {
@@ -66,7 +66,7 @@
           "model": " Ford Focus",
           "car body": "hatchback",
           "color": "blue",
-          "price": "25000$",
+          "price": "25000",
           "year": 2014
         },
         {
@@ -77,7 +77,7 @@
           "model": "volkswagon Polo",
           "car body": "4wd",
           "color": "olive green",
-          "price": "25000$",
+          "price": "25000",
           "year": 2016
         }
     

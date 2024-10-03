@@ -6,6 +6,7 @@
     <div class="col-10">
       <CarsCom :carsData="carsData" />
     </div>
+    
   </div>
 
 </template>

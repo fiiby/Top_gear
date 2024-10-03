@@ -1,17 +1,17 @@
 <template>
     <div >
-        <!-- <ul class="sidebar-nav">
-            <li><router-link to="/">Toyota</router-link></li>
-            <li><router-link to="/about">Honda</router-link></li>
-            <li><router-link to="/Categories">Nissan</router-link></li>
-            <li><router-link to="/contact">Mitsubishi</router-link></li>
-
-        </ul> -->
         <ul class="sidebar-nav">
+            <li><router-link to="/Categories">Toyota</router-link></li>
+            <li><router-link to="/Categories">Honda</router-link></li>
+            <li><router-link to="/Categories">Nissan</router-link></li>
+            <li><router-link to="/Categories">Mitsubishi</router-link></li>
+
+        </ul>
+        <!-- <ul class="sidebar-nav">
       <li v-for="(car, index) in carsData" :key="index">
         <router-link :to="`/${car.brand}`">{{ car.brand }}</router-link>
       </li>
-    </ul>
+    </ul> -->
         
         </div>
 
