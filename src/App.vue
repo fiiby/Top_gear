@@ -18,7 +18,7 @@ FooterView,
 <template>
   <div id="app" class="container">
     <MainMenu />
-    <RouterView />
+    <router-view />
 
     <FooterView />
   </div>

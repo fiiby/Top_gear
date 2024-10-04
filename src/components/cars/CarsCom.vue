@@ -41,12 +41,13 @@ export default {
     methods: {
     getImageUrl(image) {
       try {
+        
         // Assuming images are stored in `src/assets/images/`
         return new URL(`../assets/images/${image}`, import.meta.url).href;
       } catch (e) {
         console.error(`Error loading image: ${image}`, e);
         // Provide a fallback image if the original fails to load
-        return new URL('../assets/images/default_car.jpg', import.meta.url).href;
+        return new URL("../assets/images/volkswagon-polo.jpg", import.meta.url).href;
       }
     },
   },

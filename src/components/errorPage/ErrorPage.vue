@@ -1,6 +1,6 @@
 <template>
     <div class="error-page-details">
-        <img src=".@components/assets/404-error.webp">
+        <img src="@/assets/images/404-error.webp">
         <div>
             <button type="button" class="btn btn-warning" @click="goBack()">Go Back</button>
        
